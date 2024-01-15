@@ -3,7 +3,7 @@ let w = 5;
 let y;
 
 let rule;
-let intRule = 150;
+let intRule =129;
 let total = 300;
 
 function setup() 

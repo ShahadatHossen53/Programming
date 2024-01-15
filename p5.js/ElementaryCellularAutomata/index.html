@@ -9,7 +9,17 @@
 </head>
 
 <body>
+    <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automata</a>
+    <br>
+    <label for="rule">Insert rule</label>
+    <input type="number" name="rule" id="rule" min="0" max="255" value="129" onchange="ruleChange()">
 	<script src="sketch.js"></script>
+    <script>
+        function ruleChange(){
+            intRule = parseInt(document.getElementById('rule').value);
+            setup();
+        }
+    </script>
 </body>
 
 </html>
